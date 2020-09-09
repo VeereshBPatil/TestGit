@@ -2,14 +2,289 @@ this is th testing file inside the local folder
 
 
 veeresh patil
+/////////////////////////////
+in your machine:
 
-veeresh patil
+download and install the git from internet 
+
+create the folder in any drive and (ex:   c://gitfolder)
+
+open the git bash window 
+and type the commands 
+
+$   cd /c   >> for going to c drive 
+
+$  cd gitfolder/    >>going the you created folder
+
+$ ls       >> list of the files in the folder
+
+in connect your git account and local system git folder
+
+$ git config --global user.name "VeereshBPatil"
+
+$ git config --global user.email veereshpatil.gpt@gmail.com
 
 
-veeresh patil
+
+copy the http link form your github repository
+
+$ git clone "http://github.com/veereshBPatil/TestGit"
+
+$ ls
+showing the github server repository name in local system
+
+$ cd testGit/     >>for going to repository folder inside
+
+$ ls 
+readme file
+
+add the file inside the testGit folder (testingFile.txt)
+
+$ ls
+readme file testingFile.ext
+
+add this locally created file into github server
+
+$ git add testingFile.txt    >> for adding new 1 file or adding more files use $ git add *
+
+$ git status     >>its show the presnt status on git hub files
+
+
+$ git commit -m "first commit" testingFile.txt    >> -m is message commit >> save the file in hithub
+
+$ git push -u origin master      >> push your file into github server
+
+login window open add username and password
+then its push your file to github server
+
+check in hit hub server
+
+
+add or modified the testingFile.txt
+add some line and save
+
+then commit and push the modified file
+
+$ git commit -m "second commit" testingFile.txt
+
+$ git status 
+
+its show the modified status
+
+$ git push -u origin master
+
+ 
+
+///////////////////////////////
+in server side:
+
+create the github account with username and email id and password
+
+create the repository and select readme file and
+
+after push from local system refresh page and you see the testingFile.txt file is show in github server
+
+
+after modified the testingFile.txt
+its shows the newly added lines
 
 
 
+//////////////////////
 
-veeresh patil
+error 403 
+ 
+login error >> your system login with another name and password
+
+for checking this goto (select windows credentils)
+this path in your systemand reove or edit the git hub credentials
+Control Panel\User Accounts\Credential Manager
+
+
+///////////////////////////////////////////////////////////
+
+youtube video  link>> https://www.youtube.com/watch?v=J_Clau1bYco&t=991s
+
+
+Full  Git and GitHub Course - http://bit.ly/2GoS7NW
+
+Basic Git command List - http://www.codebind.com/linux-tutoria...
+
+
+Set Up Git:
+git config --global user.name "Your Name"
+git config --global user.email "youremail@domain.com"
+
+other commands
+git clone (url)
+git add (file names)
+git commit -m "(committed message)
+git push -u origin master
+git remote add origin master (url)
+
+
+//////////////////////////////////////////////////
+
+git bash window commands ::
+
+
+veeresh@DESKTOP-N18DDM0 MINGW64 ~
+$ cd
+
+veeresh@DESKTOP-N18DDM0 MINGW64 ~
+$ /c
+bash: /c: Is a directory
+
+veeresh@DESKTOP-N18DDM0 MINGW64 ~
+$ cd /c
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c
+$ cd /gitFolderInSystem
+bash: cd: /gitFolderInSystem: No such file or directory
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c
+$ ls
+'$Recycle.Bin'/             Intel/                 'Program Files (x86)'/
+ AMD/                       main.c                  ProgramData/
+ Apps/                      main.cpp                Recovery/
+ Config.Msi/                MasterCraftReport/      SQLServer2017Media/
+ Dell/                     'NetBeans 8.2'/          SRKS_ifacility/
+ dell.sdr                  'New folder'/            swapfile.sys
+ DMS/                      'New folder (2)'/       'System Volume Information'/
+'Documents and Settings'@   OneDriveTemp/           TataReport/
+ Drivers/                   pagefile.sys            Temp/
+ gitFolderInSystem/         PerfLogs/               Tsal_log.txt
+ hiberfil.sys               planVisageData/         TURBOC3/
+ I_ShopFloorReports/        planVisageDataBackUp/   Users/
+ inetpub/                  'Program Files'/         Windows/
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c
+$ cd gitFolderInSystem
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem
+$ ls
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem
+$ git config --global user.name "VeereshBPatil"
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem
+$ git config --global user.email veereshpatil.gpt@gmail.com
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem
+$ git clone "https://github.com/VeereshBPatil/TestGit.git"
+Cloning into 'TestGit'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem
+$ ls
+TestGit/
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem
+$ cd TestGit/
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem/TestGit (master)
+$ ls
+README.md
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem/TestGit (master)
+$ ls
+README.md  testingFile.txt
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem/TestGit (master)
+$ git add testingFile.txt
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem/TestGit (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   testingFile.txt
+
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem/TestGit (master)
+$ git commit -m "first commit" testingFile.txt
+[master f23b480] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 testingFile.txt
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem/TestGit (master)
+$ git push -u origin master
+remote: Permission to VeereshBPatil/TestGit.git denied to VeereshPatil-SRKS.
+fatal: unable to access 'https://github.com/VeereshBPatil/TestGit.git/': The requested URL returned error: 403
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem/TestGit (master)
+$ git push -u origin master
+remote: Permission to VeereshBPatil/TestGit.git denied to VeereshPatil-SRKS.
+fatal: unable to access 'https://github.com/VeereshBPatil/TestGit.git/': The requested URL returned error: 403
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem/TestGit (master)
+$ ^C
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem/TestGit (master)
+$ ^C
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem/TestGit (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 331 bytes | 110.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/VeereshBPatil/TestGit.git
+   6ae5c63..f23b480  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem/TestGit (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   testingFile.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem/TestGit (master)
+$ git commit -m "second commit" testingFile.txt
+[master d69c0e6] second commit
+ 1 file changed, 15 insertions(+), 1 deletion(-)
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem/TestGit (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem/TestGit (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 348 bytes | 348.00 KiB/s, done.
+To https://github.com/VeereshBPatil/TestGit.git
+   f23b480..d69c0e6  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem/TestGit (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+veeresh@DESKTOP-N18DDM0 MINGW64 /c/gitFolderInSystem/TestGit (master)
+$
 
